@@ -14,7 +14,7 @@ Configuration MyWebServerCfg {
         WindowsFeature IIS-Tools {
             Ensure    = 'Present'
             Name      = 'Web-Mgmt-Tools'
-            DependsOn = "[WindowsFeature]IIS'
+            DependsOn = '[WindowsFeature]IIS'
         }
  
     }
